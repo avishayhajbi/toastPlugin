@@ -8,7 +8,7 @@
     <license>avishayhajbi</license>
     <keywords>phonegap,toast</keywords>
 
-   <name>notification</name>
+   <name>toast</name>
 
    <description>
      This plugin allows to use native toast.
