@@ -1,4 +1,4 @@
-package com.plugin;
+package avishayhajbi.toastplugin;
 
 
 public class Mytoast {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.plugin"
+    id="avishayhajbi.toastplugin"
     version="1.0.2">
     <name>ToastPlugin</name>
     <description>Sample PhoneGap toast Plugin</description>
@@ -28,10 +28,10 @@
    <platform name="android">
       <config-file target="res/xml/config.xml" parent="/*">
          <feature name="ToastPlugin">
-            <param name="android-package" value="com.plugin.ToastPlugin" />
+            <param name="android-package" value="avishayhajbi.toastplugin.ToastPlugin" />
          </feature>
       </config-file>
-      <source-file src="src/Mytoast.java" target-dir="src/com/plugin" />
-      <source-file src="src/ToastPlugin.java" target-dir="src/com/plugin" />
+      <source-file src="src/Mytoast.java" target-dir="src/avishayhajbi/toastplugin" />
+      <source-file src="src/ToastPlugin.java" target-dir="src/avishayhajbi/toastplugin" />
    </platform>
 </plugin>
